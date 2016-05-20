@@ -2,8 +2,8 @@
 
 int main(int argc, char *argv[]) {
 
-  for (int i=100; i > 0; i--) {
-     printf("%d\n", i);
+  for (int i=0; i < 100; i++) {
+     printf("%d\n", 100-i);
   }
 
 }
